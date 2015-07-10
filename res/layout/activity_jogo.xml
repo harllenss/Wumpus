@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wumpus" 
+        android:gravity="center" 
+        android:textSize="24sp" 
+        android:textColor="#455A64"
+        android:textStyle="bold"/>
+    
+     <!--
+    GridView 
+    android:columnWidth = largura da coluna
+    android:numColumns = Números de colunas
+    -->
+    
+    <GridView
+        android:id="@+id/tela_tabuleiro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="70dip"
+        android:gravity="center"
+        android:horizontalSpacing="15dip"
+        android:verticalSpacing="15dip"
+        android:numColumns="auto_fit"
+        android:padding="11dip" >
+    </GridView>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    
+</LinearLayout>
