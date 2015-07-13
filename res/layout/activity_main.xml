@@ -19,6 +19,17 @@
             android:clickable="true"
             android:drawableTop="@drawable/play"
             android:onClick="selecionarOpcao" />
+        
+        <TextView 
+           	android:id="@+id/listaPontuacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tela_jogo"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="120dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/highscore"
+            android:onClick="selecionarOpcao" />
 
     </RelativeLayout>
     

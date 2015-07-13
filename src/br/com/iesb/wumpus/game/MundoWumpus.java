@@ -10,4 +10,6 @@ public interface MundoWumpus {
 
 	String exibirTudo();
 
+	int retornaPontuacao();
+
 }

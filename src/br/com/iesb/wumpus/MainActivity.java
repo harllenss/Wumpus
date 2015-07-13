@@ -19,8 +19,10 @@ public class MainActivity extends Activity {
 			startActivity(new Intent(this, JogoActivity.class));
 			break;
 
-		default:
+		case R.id.listaPontuacao:
+			startActivity(new Intent(this, PontuacaoActivity.class));
 			break;
 		}
+		
 	}
 }

@@ -1,5 +1,7 @@
 package br.com.iesb.wumpus.game;
 
+import android.content.Context;
+
 public class MundoWumpusBuilder {
 
 	private int quantidadeSalasPorLado = 4;
@@ -33,10 +35,10 @@ public class MundoWumpusBuilder {
 		return this;
 	}
 
-	public MundoWumpus criar() {
-		Malha malha = new Malha(quantidadeSalasPorLado, quantidadeDeWumpus,
-				quantidadeCova, quantidadeOuro);
-		return new MundoWumpusImpl(malha, quantidadeFlecha);
+	public MundoWumpus criar(Context context) {
+	        Malha malha = new Malha(quantidadeSalasPorLado, quantidadeDeWumpus,
+	                quantidadeCova, quantidadeOuro);
+	        return new MundoWumpusImpl(malha, quantidadeFlecha, context);
 	}
 
 }

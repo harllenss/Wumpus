@@ -25,16 +25,18 @@ public final class R {
         public static final int background=0x7f020000;
         public static final int fundo=0x7f020001;
         public static final int goku=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int newgoku=0x7f020004;
-        public static final int play=0x7f020005;
-        public static final int quadrado=0x7f020006;
-        public static final int white1=0x7f020007;
-        public static final int white2=0x7f020008;
-        public static final int wumpusprev=0x7f020009;
+        public static final int highscore=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int newgoku=0x7f020005;
+        public static final int play=0x7f020006;
+        public static final int quadrado=0x7f020007;
+        public static final int white1=0x7f020008;
+        public static final int white2=0x7f020009;
+        public static final int wumpusprev=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f080003;
+        public static final int action_settings=0x7f080004;
+        public static final int listaPontuacao=0x7f080003;
         public static final int tela_jogo=0x7f080002;
         public static final int tela_tabuleiro=0x7f080000;
         public static final int textView=0x7f080001;
@@ -42,6 +44,7 @@ public final class R {
     public static final class layout {
         public static final int activity_jogo=0x7f030000;
         public static final int activity_main=0x7f030001;
+        public static final int activity_pontuacao=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f070000;
